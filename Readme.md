@@ -1,6 +1,6 @@
-Abaixo os códigos utilizados na macro:
+# Abaixo os códigos utilizados na macro:
 
-//Para inserir um novo cliente na base de dados clicando em "OK" na janela
+### Para inserir um novo cliente na base de dados clicando em "OK" na janela
 Private Sub bt_cadastrar_Click()
     
     linha = Sheets("BASE").Cells(Rows.Count, "A").End(xlUp).Offset(1, 0).Row
@@ -43,14 +43,14 @@ Private Sub bt_cadastrar_Click()
     
 End Sub
 
-//Para encerrar a janela de inserir novos clientes.
+## Para encerrar a janela de inserir novos clientes.
 Private Sub bt_cancelar_Click()
     Unload Cadastro_Cliente
 End Sub
 
 -----------------------------------------------------------
 
-//Para inserir uma nova venda na base de dados clicando em "OK" na janela
+## Para inserir uma nova venda na base de dados clicando em "OK" na janela
 Private Sub bt_ok_Click()
         
     Dim v1 As Double, v2 As Double, v3 As Double, v4 As Double
